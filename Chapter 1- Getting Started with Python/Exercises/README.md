@@ -17,6 +17,7 @@ Twinkle, twinkle, little star,
 		Like a diamond in the sky. 
 Twinkle, twinkle, little star, 
 	How I wonder what you are
+print("Twinkle, twinkle, little star, \n\tHow I wonder what you are! \n\t\tUp above the world so high, \n\t\tLike a diamond in the sky.\nTwinkle, twinkle, little star, \n\tHow I wonder what you are")
 
 &nbsp;
 &nbsp;
@@ -25,7 +26,7 @@ Twinkle, twinkle, little star,
 
  Write a Python program to get the Python version you are using.
 
-yasg
+
 &nbsp;
 &nbsp;
 &nbsp;
