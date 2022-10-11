@@ -25,7 +25,8 @@ print("Twinkle, twinkle, little star, \n\tHow I wonder what you are! \n\t\tUp ab
 ## Exercise 2: Print the Version of Python :ballot_box_with_check:
 
  Write a Python program to get the Python version you are using.
-
+import sys
+print(sys.version)
 
 &nbsp;
 &nbsp;
@@ -33,19 +34,29 @@ print("Twinkle, twinkle, little star, \n\tHow I wonder what you are! \n\t\tUp ab
 ## Exercise 3: Print date and Time :ballot_box_with_check:
 
 Write a Python program to display the current date and time.
-
+import datetime
+now=datetime.datetime.now()
+print(now)
 &nbsp;
 &nbsp;
 &nbsp;
 ## Exercise 4: Strings Concatination :ballot_box_with_check:
 Write three strings in different variables and print the output as one string.
+x="My name "
+y="is "
+z="Yashvi"
+a=x+y+z 
+print(a)
 &nbsp;
 &nbsp;
 &nbsp;
-
 ## Exercise 5: Compute area of Circle :ballot_box_with_check:
 
 Write a Python program which accepts the radius of a circle from the user and compute the area.
+radius=int(input("Enter radius of a circle"))
+area=3.14*radius**2
+print("AREA OF THE CIRCLE=", area)
+
 
 &nbsp;
 &nbsp;
