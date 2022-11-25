@@ -4,7 +4,7 @@ print(x)
 x="I like watching anime"
 print(x)
 #Ex 2
-print("“Sometimes it is the people no one can imagine anything of who do the things no one can imagine.\n\t\t\t\t-Alan Turing”")
+print("\"Sometimes it is the people no one can imagine anything of who do the things no one can imagine.\n\t\t\t\t-Alan Turing\"")
 #Ex 3
 y="\tYashvi \n Zinzuadia"
 print(y)
