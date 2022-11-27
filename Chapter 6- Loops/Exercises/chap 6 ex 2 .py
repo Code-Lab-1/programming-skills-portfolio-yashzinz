@@ -7,7 +7,9 @@ finished_sandwiches=sandwich_orders
 for x in finished_sandwiches:
     print("Your",x,"is ready")
 #EX 5
-sandwich_orders=["pastrami sandwich","Nutella sandwich","pastrami sandwich","Cheese sandwich","Veggie sandwich","Mushed potato sandwich","Ham sandwich","pastrami sandwich"]
+sandwich_orders=["pastrami sandwich","Nutella sandwich","pastrami sandwich",
+"Cheese sandwich","Veggie sandwich","Mushed potato sandwich",
+"Ham sandwich","pastrami sandwich"]
 finished_sandwiches=[]
 print("Unfortunately, we've run out of pastrami sandwich.")
 while "pastrami sandwich" in sandwich_orders:

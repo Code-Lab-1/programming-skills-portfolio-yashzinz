@@ -53,3 +53,23 @@ places.sort()
 print(places)
 places.sort(reverse=True)
 print(places)
+#Ex 8 sum of all numbers in a list
+num=[12,46,78,10,76]
+sum=num[0]+num[1]+num[2]+num[3]+num[4]
+print("The sum of all numbers in the list=", sum)
+#EX 9 create a list of even numbers and another list of odd numbers from a given list
+num=[12,87,23,76,100,116,10,67]
+even_numbers=[]
+odd_numbers=[]
+for x in num:
+    if x%2==0:
+        even_numbers.append(x)
+    else:
+        odd_numbers.append(x)
+print("The even numbers are:", even_numbers)
+print("The odd numbers are:", odd_numbers)
+#Ex 10  check if the grocery items are listed in the list
+grocery_items=["eggs","milk","chocolate","oil","olives"]
+print("bread" in grocery_items)
+print("chocolate" in grocery_items)
+print("broccali" in grocery_items )

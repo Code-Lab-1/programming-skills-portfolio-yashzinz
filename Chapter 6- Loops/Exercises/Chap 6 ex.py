@@ -20,9 +20,4 @@ while True:
 i=12
 while i>11:
     print(i)
-#Ex 4
-sandwich_orders=["Nutella sandwich","Cheese sandwich","Veggie sandwich","Mushed potato sandwich","Ham sandwich"]
-finsihed_sandwiches=[]
-for i in sandwich_orders:
-    print("I made your",sandwich_orders)
-    finished_sandwiches.append[sandwich_orders]
+         
